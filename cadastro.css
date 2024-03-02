@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    display: flex;
+}
+
+.menuLateral{
+    background-color: red;
+    width: 7vw;
+    height: 100vh;
+}
+
+.header{
+    background-color: aqua;
+    width: 93vw;
+    height: 10vh;
+}
+
+.content{
+    background-color: darkkhaki;
+    width: 93vw;
+    height: 90vh;
+}
