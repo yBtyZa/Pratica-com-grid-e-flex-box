@@ -4,17 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body class="body">
 
-    <nav class="menuLateral"></nav>
-    <header class="header"></header>
-    <main class="content"></main>
-    
+    <main class="main display-flex justify-content-se align-items">
+        <section class="content display-flex justify-content-se align-items">
+
+            <section class="login-part-1 display-flex justify-content-ce align-items flex-direction-c">
+
+                <h1>Sign In to this session</h1>
+                <p>If you don´t have an accont, You can <a href=""><strong>Register here!</strong></a></p>
+                <img src="./assets/img/img-sec-3-afiliado.png" alt="logo">
+
+            </section>
+
+            <section class="login-part-2 display-flex justify-content-ce align-items">
+
+                <form class="form-login display-flex flex-direction-c align-items" action="">
+
+                    <input type="text" placeholder="Email address">
+                    <input class="password" type="password" placeholder="Password">
+                    <i class='bx bxs-low-vision'></i>
+                    <a href="">Forgot password?</a>
+                    <button class="button-login button">Sing In</button>
+
+                    <div class="or display-flex flex-direction-c">
+                        <div class="or-hr display-flex align-items">
+                            <hr style="flex: 1;">
+                            <p>Or</p>
+                            <hr style="flex: 1;">
+                        </div>
+
+                        <button class="button display-flex justify-content-ce align-items"><img
+                                src="./assets/img/icons8-google-logo-48.png" alt="Logo Google">Continue with
+                            Google</button>
+                        <button class="button display-flex justify-content-ce align-items"><img
+                                src="./assets/img/icons8-f-do-facebook-48.png" alt="Logo Facebook">Continue with
+                            Facebook</button>
+                    </div>
+
+
+                </form>
+
+            </section>
+
+        </section>
+
+    </main>
+
 </body>
 
 </html>
