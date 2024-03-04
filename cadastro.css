@@ -1,26 +1,81 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:#373737;
 }
 
 .body{
-    display: flex;
-}
-
-.menuLateral{
-    background-color: red;
-    width: 7vw;
     height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FCECBC;
 }
 
-.header{
-    background-color: aqua;
-    width: 93vw;
-    height: 10vh;
+.main{
+    width: 90vw;
+    height: 85vh;
+    border-radius: 40px;
+    background: url('./assets/img/8be512f4-6c56-42c1-a1cd-dcff64213ec5.png') center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.content{
-    background-color: darkkhaki;
-    width: 93vw;
-    height: 90vh;
+.form-cadastro{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cadastro h2{
+    font-size: 24px;
+}
+
+.form-cadastro p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.form-cadastro label{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.form-cadastro input{
+    height: 35px;
+    width: 380px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 167, 167);
+    background-color: beige;
+}
+
+.form-cadastro button{
+    width: 30%;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #373737;
+    cursor: pointer;
+}
+
+.form-cadastro button:hover{
+    background-color: #585858;
+}
+
+.form-cadastro span{
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.form-cadastro a{
+    text-decoration: none;
 }
