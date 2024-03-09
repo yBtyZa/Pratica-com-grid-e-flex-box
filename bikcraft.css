@@ -6,40 +6,41 @@
     color: #ffffff;
 }
 
-.body{
+.body {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         'header header'
         'main main';
+    overflow-x: hidden;
 }
 
-.header{
+.header {
     grid-area: header;
     background-color: #000;
     width: 100vw;
     height: 10vh;
-    padding:0 105px 0 105px;
+    padding: 0 105px 0 105px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header ul{
+.header ul {
     display: flex;
     list-style: none;
 }
 
-.header li{
+.header li {
     padding-left: 50px;
 }
 
-.header a{
+.header a {
     text-decoration: none;
     font-size: 18px;
 }
 
 
-.main{
+.main {
     grid-area: main;
     display: flex;
     justify-content: center;
@@ -49,7 +50,7 @@
 
 }
 
-.section-1{
+.section-1 {
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -57,25 +58,25 @@
     justify-content: center;
 }
 
-.div-1{
+.div-1 {
     width: 70%;
 }
 
-.div-1 h1{
+.div-1 h1 {
     font-size: 56px;
 }
 
-.div-1 span{
+.div-1 span {
     color: #FFBF00;
 }
 
-.div-1 h4{
+.div-1 h4 {
     font-size: 20px;
     margin-top: 40px;
     color: #B2B2B2;
 }
 
-.div-1 button{
+.div-1 button {
     width: 40%;
     height: 50px;
     font-size: 15px;
@@ -86,15 +87,15 @@
     cursor: pointer;
 }
 
-.div-1 strong{
+.div-1 strong {
     color: #332200;
 }
 
-.section-2{
+.section-2 {
     width: 50vw;
 }
 
-.section-2 img{
+.section-2 img {
     width: 560px;
     height: 700px;
 }
